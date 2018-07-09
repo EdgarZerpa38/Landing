@@ -1,0 +1,561 @@
+/*navbar*/
+
+.col-xs-12.col-md-12.navbar {
+    height: 60px;
+    padding: 10px 10%;
+    font-family: 'Times New Roman';
+}
+
+.col-xs-12.col-md-12.navbar a {
+    color: #692020;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.img-banner {
+    height: 700px;
+    background-image: url(../../img/planetas.jpg);
+    background-color: #cccccc;
+    background-size: 100% 100%;
+}
+
+.img-banner span {
+    display: block;
+    font-size: 14px;
+}
+
+.servicio p {
+    margin-bottom: 0px;
+    font-family: 'Times New Roman';
+}
+
+.caja-info {
+    width: 25%;
+    height: 240px;
+}
+
+.caja-red1 {
+    background: red;
+    color: white;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.caja-red2 {
+    background: #c70101;
+    color: white;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.caja-red3 {
+    background: #a90404;
+    color: white;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.caja-red4 {
+    background: #5d0404;
+    color: white;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.vision {
+    background-color: white;
+}
+
+.caja-vision {
+    padding: 150px 50px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+.caja-vision-casillas {
+    height: 340px;
+}
+
+.caja-vision-casillas img {
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+}
+
+.caja-vision p span {
+    padding: 50px 50px 50px 50px;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    color: red;
+}
+
+.caja-vision-1 {
+    background-image: url(../../img/planeta-icon.png);
+    background-size: 100% 100%;
+    padding: 50px;
+    width: 100px;
+}
+
+.caja-vision-2 {
+    background-image: url(../../img/estrellas-icon.png);
+    background-size: 100% 100%;
+    padding: 50px;
+    width: 100px;
+}
+
+.caja-vision-3 {
+    background-image: url(../../img/constelacion-icon.png);
+    background-size: 100% 100%;
+    padding: 50px;
+    width: 100px;
+}
+
+.caja-vision-4 {
+    background-image: url(../../img/galaxia-icon.png);
+    background-size: 100% 100%;
+    padding: 50px;
+    width: 100px;
+}
+
+.caja-vision-5 {
+    background-image: url(../../img/astronomico-icon.png);
+    background-size: 100% 100%;
+    padding: 50px;
+    width: 100px;
+}
+
+.nombres {
+    font-size: 15px;
+    text-align: center;
+}
+
+.plan-texto {
+    padding: 125px;
+    width: 10px;
+    height: 10px;
+    font-family: "Times New Roman";
+}
+
+.columna-compartida1 {
+    background-image: url(../../img/lunas.jpg);
+    width: 600px;
+    height: 720px;
+    padding: 0px;
+    margin: 0px;
+    background-size: 100% 100%;
+    font-family: "Times New Roman";
+}
+
+.columna-compartida2 p {
+    text-align: left;
+    font-family: 'Times New Roman';
+}
+
+.minicajas1 {
+    width: 150px;
+    height: 360px;
+    background-color: #f56e67;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.minicajas2 {
+    width: 150px;
+    height: 360px;
+    background-color: #fdfdfd;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.minicajas3 {
+    width: 150px;
+    height: 360px;
+    background-color: #bd3125;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.minicajas4 {
+    width: 150px;
+    height: 360px;
+    background-color: #f97b75;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.caja-doble-background {
+    font-family: 'Times New Roman';
+    background-color: #ccc;
+    width: 100%;
+    height: 530px;
+    text-align: center;
+    position: relative;
+}
+
+.rojo {
+    color: #bd3125;
+    padding: 120px 26% 0px;
+    font-size: 23px;
+    text-align: left;
+    width: 100%;
+}
+
+.negro {
+    padding: 0px 26% 0px;
+    width: 100%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.img-doctores {
+    background-image: url(../../img/sol.jpg);
+    background-size: 100% 100%;
+    width: 49%;
+    height: 400px;
+    position: absolute;
+    top: 370px;
+    left: 25%;
+}
+
+.transparente {
+    background-color: #000000bd;
+    width: 70%;
+    height: 60%;
+    padding: 30px;
+    margin: 80px auto;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.transparente p{
+    padding: 35px 0px 0px;
+}
+
+.caja-doctor-casillas {
+    padding: 300px 20% 50px;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.caja-doctor-casillas img {
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+    padding: 5px 5px 5px 5px;
+}
+
+.caja-doctor-casillas p {
+    text-align: center;
+}
+
+.caja-espacio {
+    width: 25%;
+    height: 80px;
+}
+
+.caja-espacio span {
+    padding: 25%;
+}
+
+.nombres span {
+    font-size: 10px;
+    padding: 50px;
+    text-align: center;
+}
+
+.nom-doc {
+    text-align: center;
+    padding: 50px;
+}
+
+.img-prueba {
+    background-color: #c0c0c03d;
+    width: 600px;
+    height: 720px;
+    padding: 0px;
+    margin: 0px;
+    background-size: 100% 100%;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.img-prueba p {
+    margin: 2% 170px;
+}
+
+.img-prueba p:nth-child(2) {
+    font-size: 35px;
+}
+
+.img-prueba img {
+    padding: 0% 93px;
+    width: 570px;
+    height: 400px;
+    margin-top: 90px;
+}
+
+.img-bata {
+    background-image: url(../../img/blackhole.jpeg);
+    width: 600px;
+    height: 720px;
+    padding: 0px;
+    margin: 0px;
+    background-size: 100% 100%;
+    font-family: 'Times New Roman';
+}
+
+.transparentico {
+    background-color: #ff000070;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.transparentico1 {
+    padding-top: 135px;
+}
+
+.transparentico1 p {
+    text-align: left;
+    font-family: 'Times New Roman';
+    color: white;
+    padding: 10px 0px 0px 70px;
+    height: 0px;
+}
+
+.transparentico1 span {
+    font-size: 24px;
+}
+
+.transparentico1 p:nth-child(2) {
+    font-size: 24px;
+}
+
+.transparentico1 p:nth-child(3) {
+    margin-top: 60px;
+}
+
+.transparentico1 p:nth-child(4) {
+    margin-top: 90px;
+}
+
+.transparentico1 p:nth-child(5) {
+    margin-top: 90px;
+}
+
+.caja-compartida-3 {
+    font-family: 'Times New Roman';
+}
+
+.cajotas1 {
+    color: white;
+    width: 150px;
+    height: 360px;
+    background-color: silver;
+    padding: 35px 160px 0px 25px;
+    text-align: left;
+}
+
+.cajotas1 p:nth-child(1) {
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.cajotas1 p:nth-child(2) {
+    font-size: 24px;
+}
+
+.cajotas2 {
+    color: white;
+    width: 150px;
+    height: 360px;
+    background-color: gray;
+    padding: 60px 30px;
+    text-align: left;
+}
+
+.cajotas2 p:nth-child(1) {
+    font-size: 24px;
+}
+
+.cajotas3 {
+    color: white;
+    width: 150px;
+    height: 360px;
+    background-color: #bd3125;
+    padding: 60px 30px;
+    text-align: left;
+}
+
+.cajotas3 p:nth-child(1) {
+    font-size: 24px;
+}
+
+.formulario {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    text-align: center;
+}
+
+.informacion {
+    padding: 90px 10% 0;
+}
+
+.formulario p {
+    text-align: left;
+    font-family: 'Times New Roman';
+    color: white;
+}
+
+.informacion p:nth-child(2) {
+    font-size: 24px;
+}
+
+.informacion p {
+    margin-bottom: 0;
+}
+
+.formulario input {
+    width: 80%;
+    padding: 6px 20px 5px;
+    margin: 6px 0px 6px 0px;
+    border: 1px solid white;
+}
+
+.formulario textarea {
+    width: 80%;
+    padding: 10px 20px 0px;
+    margin: 6px 0px 6px 0px;
+    max-height: 200px;
+    min-height: 200px;
+    border: 1px solid white;
+}
+
+.formulario button {
+    width: 80%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #a6625f;
+    border: 0;
+}
+
+.formulario button:hover {
+    background: #e68884;
+    cursor: pointer;
+}
+
+.formulario1 {
+    padding: 0;
+}
+
+.caja-info span {
+    font-size: 24px;
+}
+
+.vision .col-xs-12.col-md-2 {
+    text-align: center;
+}
+
+.caja-doctor-casillas .col-xs-12.col-md-3 {
+    text-align: center;
+}
+
+.caja-doctor-casillas .col-xs-12.col-md-3 p {
+    line-height: 17px;
+    font-weight: 400;
+}
+
+.col-xs-6.col-md-6.caja-info:nth-child(2) {
+    color: black !important;
+}
+
+.col-xs-6.col-md-6.caja-info {
+    color: white !important;
+}
+
+img.img-icono {
+    height: 60px;
+    float: left;
+    padding-right: 100%;
+    padding-bottom: 10px;
+}
+
+.img-banner-lv2 {
+    width: 100%;
+    height: 100%;
+    background: #ffffff42;
+}
+
+.img-banner-lv3 {
+    height: 100%;
+    width: 60%;
+    background: #00000070;
+    display: inline-block;
+}
+
+.img-banner-lv2 .row {
+    height: 100%;
+}
+
+.img-banner-lv3-2.col-xs-4 {
+    width: 0;
+    height: 0;
+    border-top: 700px solid #00000070;
+    border-right: 450px solid transparent;
+}
+
+.img-banner .img-banner-lv3.col-xs-8 {
+    padding: 14% 7% 5%;
+}
+
+.img-banner-lv3.col-xs-8 p {
+    color: white;
+    font-size: 59px;
+    padding: 0 0 0 0;
+    line-height: 63px;
+    text-transform: uppercase;
+}
+
+.img-banner-lv3.col-xs-8 span {
+    color: white;
+    font-size: 20px;
+}
+
+.img-banner-lv3.col-xs-8 a {
+    font-size: 24px;
+    color: white;
+}
+
+@media screen and (max-width: 400px) {
+    .caja-red1 {
+        width: 100%;
+    }
+    .caja-red2 {
+        width: 100%;
+    }
+    .caja-red3 {
+        width: 100%;
+    }
+    .caja-red4 {
+        width: 100%;
+    }
+    .minicajas1 {
+        width: 100%;
+    }
+    .minicajas2 {
+        width: 100%;
+    }
+    .minicajas3 {
+        width: 100%;
+    }
+    .minicajas4 {
+        width: 100%;
+    }
+}
